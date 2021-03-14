@@ -1,6 +1,6 @@
 class TrickOrTreater  {
-  constructor() {
-
+  constructor(costume) {        
+    this.dressedUpAs = costume.style;
   }
 }
 
