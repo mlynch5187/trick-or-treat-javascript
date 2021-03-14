@@ -48,7 +48,7 @@ describe('TrickOrTreater', function () {
   });
 
 
-  it.skip('should add new candy into bag', function () {
+  it('should add new candy into bag', function () {
     var costume = new Costume('Zombie');
     var bag = new Bag();
     var trickOrTreater = new TrickOrTreater(costume, bag);

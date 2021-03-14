@@ -7,6 +7,7 @@ class TrickOrTreater  {
 
   putCandyInBag(candy)  {
     this.hasCandy = true;
+    this.bag.candies.push(candy);
   }
 }
 
