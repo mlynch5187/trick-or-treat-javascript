@@ -14,8 +14,9 @@ class TrickOrTreater  {
   }
 
   eat() {
-    this.countCandies--;
-    this.bag.count--;
+    this.countCandies -= 1;
+    this.bag.count--
+    this.bag.candies.pop();
   }
 }
 
