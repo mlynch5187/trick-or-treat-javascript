@@ -7,6 +7,17 @@ class Bag {
 
   fill(candy) {
     this.candies.push(candy)
+    this.count += 1;
+  }
+
+  contains(candy)  {    
+    for (var i = 0; i < this.candies.length; i++) {
+      if (this.candies[i].type.includes(candy)) {
+        return true;
+      } else {
+        return false;
+      }
+    }
   }
 }
 
