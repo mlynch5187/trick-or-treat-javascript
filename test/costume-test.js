@@ -1,5 +1,5 @@
 var assert = require('chai').assert;
-var Costume = require('../lib/costume')
+var Costume = require('../src/costume')
 
 describe('Costume', function () {
 
