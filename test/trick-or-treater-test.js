@@ -70,7 +70,7 @@ describe('TrickOrTreater', function () {
     assert.equal(trickOrTreater.bag.count, trickOrTreater.countCandies)
   });
 
-  it.skip('should eat candies', function () {
+  it('should eat candies', function () {
     var costume = new Costume('Spaceship Mechanic');
     var bag = new Bag();
     var trickOrTreater = new TrickOrTreater(costume, bag);
