@@ -1,8 +1,8 @@
 var assert = require('chai').assert;
-var Costume = require('../lib/costume');
-var Bag = require('../lib/bag');
-var Candy = require('../lib/candy');
-var TrickOrTreater = require('../lib/trick-or-treater');
+var Costume = require('../src/costume');
+var Bag = require('../src/bag');
+var Candy = require('../src/candy');
+var TrickOrTreater = require('../src/trick-or-treater');
 
 describe('TrickOrTreater', function () {
 
